@@ -12,7 +12,4 @@ public class BaseConvert {
                 return 0.0;
         }
     }
-    public double convert(double toConvert){
-        return convert(toConvert, 0);
-    }
 }
