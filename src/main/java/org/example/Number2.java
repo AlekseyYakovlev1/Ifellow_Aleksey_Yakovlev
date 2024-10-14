@@ -1,9 +1,12 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Number2 {
     public static void main (String[] args) {
-        String text = "Hello";
-        System.out.println("Строка = " + text);
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Введите строку: ");
+        String text = sc.nextLine();
         int len = 128;
         int[] arr = new int[len];
 

@@ -8,15 +8,15 @@ public class Number1 {
 
 
     public static void main(String[] args) {
-        int len = 20;
+        int len = 2;
         int[] arr = new int[len];
 
-        int max;
-        for(max = 0; max < arr.length; ++max) {
-            arr[max] = (int)(Math.random() * 20.0);
-            System.out.print(arr[max] + " ");
+        for(int i = 0; i < arr.length; ++i) {
+            arr[i] = (int)(Math.random() * 20.0);
+            System.out.print(arr[i] + " ");
         }
 
+        int max;
         max = arr[0];
         int min = arr[0];
         int sum = 0;
